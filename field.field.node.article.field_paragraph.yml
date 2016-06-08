@@ -1,0 +1,30 @@
+uuid: 1f342ee3-00b6-472d-b467-58848b0e0330
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph
+    - node.type.article
+    - paragraphs.paragraphs_type.current_news
+  module:
+    - entity_reference_revisions
+id: node.article.field_paragraph
+field_name: field_paragraph
+entity_type: node
+bundle: article
+label: Paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      current_news: current_news
+    target_bundles_drag_drop:
+      current_news:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

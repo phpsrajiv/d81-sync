@@ -1,0 +1,19 @@
+uuid: fc982eda-4b76-41e1-9ab3-2680513dd6f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_n
+    - paragraphs.paragraphs_type.current_news
+id: paragraph.current_news.field_n
+field_name: field_n
+entity_type: paragraph
+bundle: current_news
+label: 'News Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

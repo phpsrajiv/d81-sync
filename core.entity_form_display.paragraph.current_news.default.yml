@@ -1,0 +1,33 @@
+uuid: 17054118-48da-43db-9728-3dc62e8c6a26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.current_news.field_n
+    - field.field.paragraph.current_news.field_news_
+    - paragraphs.paragraphs_type.current_news
+  module:
+    - text
+id: paragraph.current_news.default
+targetEntityType: paragraph
+bundle: current_news
+mode: default
+content:
+  field_n:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+  field_news_:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+hidden:
+  created: true
+  status: true
+  uid: true

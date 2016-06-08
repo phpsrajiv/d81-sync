@@ -1,0 +1,6 @@
+uuid: f474d546-8958-402a-83ec-5975cbc9789c
+langcode: en
+status: true
+dependencies: {  }
+id: current_news
+label: 'Current news'

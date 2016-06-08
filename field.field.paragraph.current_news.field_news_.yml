@@ -1,0 +1,21 @@
+uuid: 7172faad-8c47-4319-a9d3-dff3e86aa267
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_news_
+    - paragraphs.paragraphs_type.current_news
+  module:
+    - text
+id: paragraph.current_news.field_news_
+field_name: field_news_
+entity_type: paragraph
+bundle: current_news
+label: 'News Body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

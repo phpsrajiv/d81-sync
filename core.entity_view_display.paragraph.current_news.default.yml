@@ -1,0 +1,30 @@
+uuid: 3a9c01b2-da8e-4666-8490-893131783811
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.current_news.field_n
+    - field.field.paragraph.current_news.field_news_
+    - paragraphs.paragraphs_type.current_news
+  module:
+    - text
+id: paragraph.current_news.default
+targetEntityType: paragraph
+bundle: current_news
+mode: default
+content:
+  field_n:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_news_:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+hidden:
+  created: true
+  uid: true
